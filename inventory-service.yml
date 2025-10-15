@@ -2,3 +2,12 @@ server:
   port: 8083
 inventory:
   message: "Inventory Service Config from GitHub"
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    fetch-registry: true
+    register-with-eureka: true
