@@ -1,0 +1,4 @@
+server:
+  port: 8081
+order:
+  message: "Order Service Config from GitHub"
